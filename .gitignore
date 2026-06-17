@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+/dist
+/npm-debug.log*
+
+# Variables de entorno y secretos (CRÍTICO)
+.env
+.env.local
+.env.production
+.env.development
+
+# Prisma (Evita subir migraciones locales temporales o bases de datos SQLite si las usas)
+/prisma/*.db
+/prisma/*.db-journal
+
+# IDEs y Editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
